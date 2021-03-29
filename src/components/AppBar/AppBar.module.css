@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.header {
+  padding: 0 40px;
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  z-index: 1200;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../../assets/bright.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0px 6px 16px 4px #0e0404;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  margin: 0;
+  font-family: 'Audiowide', cursive;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  text-shadow: -1px -1px 18px rgba(237, 130, 134, 1);
+  font-size: 18px;
+  padding: 10px;
+}
+
+.navLinkActive {
+  color: white;
+  text-shadow: -1px -1px 18px rgba(237, 130, 134, 1);
+  border: 2px solid;
+  border-radius: 20px;
+  box-shadow: 0 0 3px 1px rgba(207, 13, 11, 1),
+    0 0 15px -2px rgba(251, 234, 233, 1), inset 0 0 3px 1px rgba(207, 13, 11, 1),
+    inset 0 0 12px -5px rgba(251, 234, 233, 1);
+}
+
+.logo {
+  display: inline-flex;
+  flex-direction: column;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 40px;
+  letter-spacing: 0.04em;
+  color: #fbeae9;
+  vertical-align: middle;
+  line-height: 1;
+  /* margin: 20px 0 0; */
+  margin: 0;
+  text-shadow: -1px -1px 18px rgba(237, 130, 134, 1);
+}
+
+.logoPart {
+  font-size: 27px;
+  letter-spacing: 0.04em;
+  line-height: 0.8;
+}
