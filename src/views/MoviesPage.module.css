@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.SearchForm {
+  margin: 0 auto 30px;
+  width: fit-content;
+  border: 2px solid #fbeae9;
+  background-color: rgba(44, 4, 12, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 0 3px 1px rgba(207, 13, 11, 1),
+    0 0 15px -2px rgba(251, 234, 233, 1), inset 0 0 3px 1px rgba(207, 13, 11, 1),
+    inset 0 0 12px -5px rgba(251, 234, 233, 1);
+}
+
+.SearchFormInput {
+  width: 400px;
+  height: 40px;
+  color: #fbeae9;
+  border: none;
+  background-color: transparent;
+  padding: 8px 8px 8px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.13;
+  font-family: cursive;
+}
+
+.SearchFormInput:focus {
+  outline: none;
+}
+
+.SearchFormButton {
+  height: 40px;
+  color: #fbeae9;
+  border: none;
+  background-color: transparent;
+  font-family: 'Audiowide', cursive;
+  padding: 8px 16px;
+}
+
+.SearchFormButton:focus {
+  outline: none;
+}
+
+.error {
+  margin: 20px auto;
+  padding: 20px;
+  color: #fbeae9;
+  font-size: 30px;
+  font-family: 'Audiowide', cursive;
+  background-color: rgba(44, 4, 12, 0.932);
+  text-shadow: 0 0 4px rgba(44, 4, 12, 0.993), 0 0 12px rgba(251, 234, 233, 1);
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 0 0 3px 1px rgba(207, 13, 11, 1),
+    0 0 15px -2px rgba(251, 234, 233, 1);
+}
