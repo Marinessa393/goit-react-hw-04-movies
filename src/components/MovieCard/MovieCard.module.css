@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;700&display=swap');
+
+.card {
+  width: 30%;
+  height: 100%;
+  overflow-y: hidden;
+  padding: 15px;
+  position: relative;
+  margin: 0;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.vote {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #cf0d0b;
+  color: #fbeae9;
+  padding: 6px;
+  border-bottom-right-radius: 10px;
+  font-family: 'Audiowide', cursive;
+}
+
+.description {
+  width: 60%;
+  color: #fbeae9;
+  padding: 20px;
+  font-family: 'Changa', sans-serif;
+}
+
+h2 {
+  color: #fbeae9;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  line-height: 1.17;
+  margin-top: 0;
+  text-shadow: 0px 0px 9px rgb(255, 208, 0);
+}
+
+.descItem {
+  display: flex;
+  align-items: flex-start;
+}
+
+.itemTitle {
+  margin-right: 20px;
+  min-width: 104px;
+  font-size: 16px;
+  color: rgb(255, 208, 0);
+  letter-spacing: 0.04em;
+  line-height: 1.05;
+}
+
+.descEl {
+  letter-spacing: 0.03em;
+  line-height: 1.05;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+  border-radius: 16px;
+  height: 95%;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #845454;
+  border-radius: 12px;
+}
+
+.descList {
+  letter-spacing: 0.03em;
+  line-height: 1.05;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 16px -3px;
+}
+
+.genres {
+  margin: 0 3px;
+}
