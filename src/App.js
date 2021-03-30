@@ -21,8 +21,8 @@ function App() {
             <Loader
               type="Rings"
               color="#fa830f"
-              height={80}
-              width={80}
+              height={160}
+              width={160}
               className="loader"
             />
           }

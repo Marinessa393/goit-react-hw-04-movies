@@ -1,5 +1,6 @@
 import { Link, withRouter } from 'react-router-dom';
 import s from './Gallery.module.css';
+import errorImg from '../../assets/errorImg.jpg';
 const baseImgUrl = `https://image.tmdb.org/t/p/w500/`;
 
 function Gallery({ movies, location }) {
@@ -16,7 +17,11 @@ function Gallery({ movies, location }) {
               style={{ textDecoration: 'none' }}
             >
               <img
-                src={`${baseImgUrl}${poster_path}`}
+                src={
+                  poster_path === null
+                    ? errorImg
+                    : `${baseImgUrl}${poster_path}`
+                }
                 alt={original_title}
                 className={s.GalleryPoster}
                 loading="lazy"

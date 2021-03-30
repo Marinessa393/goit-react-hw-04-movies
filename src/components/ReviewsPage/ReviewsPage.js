@@ -34,6 +34,8 @@ export class ReviewsPage extends Component {
                     src={
                       el.author_details.avatar_path === null
                         ? square
+                        : el.author_details.avatar_path.includes('http')
+                        ? square
                         : `${baseImgUrl}${el.author_details.avatar_path}`
                     }
                     alt={el.author_details.username}
